@@ -25,4 +25,4 @@ When the database service is down, it will restart the service and send an alert
 ```bash
 git clone https://github.com/yourusername/auto-restart-db-cpanel.git
 cd auto-restart-db-cpanel
-chmod +x monitor-db.sh
+chmod +x autorestartservicedbcpanel.sh
