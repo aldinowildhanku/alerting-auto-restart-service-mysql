@@ -1,26 +1,24 @@
-🔄 Auto Restart Database Service with Discord Webhook (cPanel)
+Auto Restart Database Service (cPanel) + Discord Webhook
 
-This project provides an automatic monitoring and recovery solution for database services (MySQL / MariaDB) running on cPanel servers.
-When the database service is detected as stopped or unresponsive, the system will:
+Simple automation script to monitor and auto-restart MySQL/MariaDB services on cPanel servers.
+If the database service goes down, it will be restarted automatically and send an alert to Discord.
 
-🔁 Automatically restart the database service
+Features
 
-📡 Send real-time alerts to Discord via Webhook
+Auto restart MySQL / MariaDB
 
-🕒 Run periodically using cron job
+Discord webhook notification
 
-✨ Features
+Cron-based monitoring
 
-✅ Supports MySQL / MariaDB
+Lightweight & cPanel friendly
 
-✅ Compatible with cPanel & WHM environments
+Requirements
 
-✅ Automatic service health check
+cPanel server (root / sudo access)
 
-✅ Auto-restart on failure
+MySQL or MariaDB
 
-✅ Discord webhook notifications (status, timestamp, hostname)
+curl installed
 
-✅ Lightweight & easy to deploy
-
-✅ Works on AlmaLinux / CentOS / CloudLinux
+Discord webhook URL
